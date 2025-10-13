@@ -1,0 +1,71 @@
+{
+  "layer": "top",
+  "position": "top",
+  "modules-left": ["hyprland/workspaces"],
+  "modules-center": ["clock"],
+  "modules-right": ["network", "pulseaudio", "battery"],
+  "tray": {
+    "spacing": 10
+  },
+  "hyprland/workspaces": {
+    "on-click": "activate",
+    "format": "{icon}",
+    "format-icons": {
+      "default": "",
+      "1": "1",
+      "2": "2",
+      "3": "3",
+      "4": "4",
+      "5": "5",
+      "6": "6",
+      "7": "7",
+      "8": "8",
+      "9": "9",
+      "active": "󱓻",
+      "urgent": "󱓻"    
+    },
+    "persistent-workspaces": {
+      "1": [],
+      "2": [],
+      "3": [],
+      "4": [],
+      "5": []
+    }
+  },
+  "network": {
+    "format-disconnected": "0% 󰖪 ",
+    "format-ethernet": "100% 󰈀 ",
+    "format-linked": "{ifname} (No IP)",
+    "format-wifi": "{signalStrength}%  ",
+    "tooltip-format": "Connected to {essid} {ifname} via {gwaddr}"
+  },
+  "pulseaudio": {
+    "format": "{volume}% {icon}",
+    "format-icons": {
+      "default": [
+        "󰕿",
+        "󰖀",
+        "󰕾"
+      ]
+    },
+    "format-muted": "0% 󰝟",
+  },
+  "battery": {
+    "format": "{capacity}% {icon} ",
+    "format-icons": [
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],  
+    "states": {
+      "critical": 15,
+      "good": 95,
+      "warning": 30
+    }
+  },
+  "clock": {
+    "format": "{:%m/%d %I:%M %p}"
+  }
+}
