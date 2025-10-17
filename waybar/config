@@ -1,11 +1,16 @@
 {
   "layer": "top",
   "position": "top",
-  "modules-left": ["hyprland/workspaces"],
+  "modules-left": ["custom/power", "hyprland/workspaces"],
   "modules-center": ["clock"],
   "modules-right": ["network", "pulseaudio", "battery"],
   "tray": {
     "spacing": 10
+  },
+  "custom/power": {
+    "format": "⏻",
+    "tooltip": false,
+    "on-click": "sh -c \"$HOME/.local/bin/power-menu.sh\""
   },
   "hyprland/workspaces": {
     "on-click": "activate",

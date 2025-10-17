@@ -44,6 +44,21 @@ window#waybar {
   background-color: #f38ba8;
 }
 
+#custom-power {
+  border-radius: 4px;
+  margin: 6px 3px;
+  padding: 6px;
+  padding-left: 17px;
+  padding-right: 19px;
+  background-color: #3b3b3b;
+  color: #fdfdfd;
+}
+
+#custom-power:hover {
+  background-color: #fdfdfd;
+  color: #3b3b3b;
+}
+
 #pulseaudio,
 #network,
 #clock,
