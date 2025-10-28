@@ -1,0 +1,74 @@
+configuration {
+    font: "JetBrainsMono Nerd Font 10";
+    icon-theme: "Colloid-Teal-Dark";
+
+    drun { display-name: ""; }
+    run { display-name: ""; }
+    window { display-name: ""; }
+
+    timeout { delay: 10; action: "kb-cancel"; }
+}
+
+* {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    spacing: 0;
+
+    fg: #f8f9fa;
+    fg-alt: #4682b4;
+
+    background-color: #141414;
+    text-color: @fg;
+}
+
+window {
+    width: 320px;
+    padding: 12px;
+    border-radius: 14px;
+    border: 1;
+    border-color: rgba(255, 255, 255, 0.05);
+    transparency: "real";
+}
+
+mainbox { children: [inputbar, listview]; }
+
+inputbar {
+    border-radius: 10px;
+    children: [prompt, entry];
+}
+
+entry {
+    padding: 8px 2px;
+    border-radius: 8px;
+}
+
+prompt {
+    padding: 8px;
+}
+
+listview {
+    lines: 5;
+    border-radius: 10px;
+    spacing: 2px;
+}
+
+element {
+    children: [element-icon, element-text];
+    border-radius: 8px;
+    padding: 2px 4px;
+}
+
+element-icon {
+    padding: 5px 5px;
+    size: 18px;
+}
+
+element-text {
+    padding: 6px 0;
+}
+
+element-text selected {
+    text-color: @fg-alt;
+    border-radius: 6px;
+}

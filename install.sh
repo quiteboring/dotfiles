@@ -1,0 +1,1 @@
+cp ./images/wallpaper.png ~/wallpapers/wallpaper.png

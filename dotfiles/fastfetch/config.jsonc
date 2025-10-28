@@ -1,0 +1,83 @@
+{
+    "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+    "logo": {
+        "source": "~/.local/share/fastfetch/ascii/arch.txt",
+        "padding": {
+            "top": 3,
+            "left": 4
+        },
+	"color": {
+	    "1": "#4682b4",
+	    "2": "#4682b4"
+	}
+    },
+    "display": {
+        "separator": " ",
+    },
+    "modules": [
+	"break",
+        "break",
+	"break",
+	"break",
+	"break",
+	{
+	    "type": "title",
+	    "color": {
+		"user": "#4682b4",
+		"at": "#4682b4",
+		"host": "#4682b4",
+	    }
+	},
+	"break",
+        {
+            "type": "os",
+            "key": " ",
+            "keyColor": "#4682b4"
+        },
+        {
+            "type": "kernel",
+            "key": " ",
+            "keyColor": "#4682b4"
+        },
+        {
+            "type": "packages",
+            "format": "{} (pacman)",
+            "key": " ",
+            "keyColor": "#4682b4"
+        },
+        {
+            "type": "shell",
+            "key": " ",
+            "keyColor": "#4682b4"
+        },
+        {
+            "type": "terminal",
+            "key": " ",
+            "keyColor": "#4682b4"
+        },
+        {
+            "type": "wm",
+            "key": " ",
+            "keyColor": "#4682b4"
+        },
+        {
+            "type": "uptime",
+            "key": " ",
+            "keyColor": "#4682b4"
+        },
+        {
+            "type": "media",
+            "key": "󰝚 ",
+            "keyColor": "#4682b4"
+        },
+        "break",
+        "colors",
+        "break",
+        "break",
+	"break",
+	"break",
+	"break",
+	"break",
+	"break"
+    ]
+}

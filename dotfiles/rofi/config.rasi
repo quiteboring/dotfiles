@@ -1,0 +1,9 @@
+configuration {
+  display-drun: "   Apps ";
+  modi: "drun";
+  terminal: "kitty";
+  location: 0;
+  hide-scrollbar: true;
+}
+
+@theme "./theme.rasi"
