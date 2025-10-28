@@ -1,8 +1,4 @@
-## ⚠️ Disclaimer
-
-> **This will NOT install the packages for you, but only install the configuration.**
-
----
+## ⚙️ Setup
 
 - For the SDDM theme, I will being using [SilentSDDM](https://github.com/uiriansan/SilentSDDM)
 
@@ -12,3 +8,10 @@ cd dotfiles
 sudo chmod +x ./install.sh
 ./install.sh
 ```
+---
+
+## ⚠️ Disclaimer
+
+> This will **NOT** install the packages for you, but only install the configuration.
+
+---
