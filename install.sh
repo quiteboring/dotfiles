@@ -39,7 +39,6 @@ sudo cp -rf ../sddm/sddm.conf /etc/sddm.conf
 # Copy wallpaper
 echo -e "\033[1;94mCopying wallpaper\033[0m"
 cp -f ../images/wallpaper.png ~/wallpapers/wallpaper.png
-sudo cp -rf ../images/wallpaper.jpg /usr/share/sddm/themes/silent/backgrounds/default.jpg
 sudo cp -rf ../images/wallpaper.jpg /usr/share/sddm/themes/silent/backgrounds/smoky.jpg
 
 echo -e "\033[1;94mSetup avatar image for user\033[0m"
