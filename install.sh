@@ -30,7 +30,7 @@ sudo pacman -S --noconfirm --needed sddm qt6-svg qt6-virtualkeyboard qt6-multime
 sudo systemctl enable sddm > /dev/null 2>&1
 
 echo -e "\033[1;94mCloning SDDM theme repo\033[0m"
-# git clone https://github.com/uiriansan/SilentSDDM  > /dev/null 2>&1
+git clone https://github.com/uiriansan/SilentSDDM  > /dev/null 2>&1
 cd SilentSDDM/
 sudo mkdir -p /usr/share/sddm/themes/silent
 sudo cp -rf . /usr/share/sddm/themes/silent/

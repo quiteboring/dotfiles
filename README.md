@@ -1,7 +1,5 @@
 ## ⚙️ Setup
 
-- For the SDDM theme, I will being using [SilentSDDM](https://github.com/uiriansan/SilentSDDM)
-
 ```
 git clone https://github.com/quiteboring/dotfiles
 cd dotfiles
