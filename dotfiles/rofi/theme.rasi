@@ -1,5 +1,5 @@
 configuration {
-    font: "JetBrainsMono Nerd Font 10";
+    font: "JetBrainsMono Nerd Font 9";
     icon-theme: "Colloid-Teal-Dark";
 
     drun { display-name: ""; }
