@@ -9,8 +9,7 @@
 
   "custom/power": {
     "format": " ",
-    "exec": "echo ; echo Power",
-    "on-click": "wlogout",
+    "on-click": "shutdown now",
     "interval": 86400,
     "tooltip": true
   },
