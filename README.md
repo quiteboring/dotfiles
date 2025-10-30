@@ -7,7 +7,7 @@ sudo chmod +x ./install.sh
 ./install.sh
 ```
 
-###### After running `install.sh` you may need to edit settings in `Qt6 Settings` app
+###### After running `install.sh` you may need to edit settings in `Qt6 Settings` app for dark theme to work
 
 ---
 
